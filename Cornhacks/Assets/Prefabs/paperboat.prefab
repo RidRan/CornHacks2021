@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 4223237176576022765}
   - component: {fileID: 8732652664976706942}
   - component: {fileID: 720931371}
-  m_Layer: 0
+  - component: {fileID: 7037410674145913899}
+  m_Layer: 9
   m_Name: paperboat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,5 +150,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalSpeed: 3
-  verticalSpeed: 100
+  verticalSpeed: 10
   timeInvincible: 2
+--- !u!95 &7037410674145913899
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4640469319771899199}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 164e90dbfa090cf43af10bade4bb78f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
